@@ -1,8 +1,7 @@
 import pro1 from "../assets/img3.jpg";
 import pro2 from "../assets/libimg.jpg";
 import pro3 from "../assets/schimg.jpg";
-import { Link } from "react-router-dom";
-import UnderConstruction from "./UnderConstruction";
+
 
 const ProjectCardData = [
     {
