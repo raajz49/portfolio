@@ -1,0 +1,57 @@
+.Footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left, .right {
+    flex: 0 0 calc(50% - 20px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    gap: 10px;
+}
+
+.icon {
+    color: #fff; /* Set icon color to white */
+}
+
+.location, .Phone, .Mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+   
+}
+
+.location p, .Phone h4, .Mail h4, .right h4, .right p {
+    color: #fff !important;
+    margin-left: 1rem;
+}
+
+.social {
+    display: flex;
+    margin-left: 10px;
+}
+
+.social > * {
+    margin-right: 1rem
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        flex: none;
+    }
+}

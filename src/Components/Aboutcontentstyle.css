@@ -1,0 +1,38 @@
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    height: 100%;
+}
+
+.about .left {
+    text-align: center;
+    padding: 1rem;
+    max-width: 350px;
+    margin: auto;
+}
+
+.about .left p {
+    margin: 1.2rem 0;
+}
+
+.about .right {
+    max-width: 700px;
+}
+
+.right .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add gap between images */
+}
+
+.right .img {
+    width: 100%; /* Ensure images take up full width of their container */
+    max-width: 200px; /* Adjust maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #333;
+}
