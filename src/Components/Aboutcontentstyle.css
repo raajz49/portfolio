@@ -1,3 +1,4 @@
+
 .about {
     width: 100%;
     display: flex;
@@ -27,12 +28,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Add gap between images */
+}
+
+.right .img-stack {
+    width: 300px; /* Adjust the width of the square image */
+    height: 300px; /* Adjust the height of the square image */
+    overflow: hidden; /* Hide any overflowing content */
 }
 
 .right .img {
-    width: 100%; /* Ensure images take up full width of their container */
-    max-width: 200px; /* Adjust maximum width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border: 1px solid #333;
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    border-radius: 20px; /* Add rounded corners to improve edge quality */
 }

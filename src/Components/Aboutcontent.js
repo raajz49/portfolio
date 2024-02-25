@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Aboutcontentstyle.css";
 import React from 'react';
 
-import React2 from "../assets/javaimg.avif";
+import React2 from "../assets/rect.avif";
 
 const Aboutcontent = () => {
   return (
