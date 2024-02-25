@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./Aboutcontentstyle.css";
 import React from 'react';
 
-import React1 from "../assets/reactimg.avif";
 import React2 from "../assets/javaimg.avif";
 
 const Aboutcontent = () => {
@@ -17,9 +16,6 @@ const Aboutcontent = () => {
       </div>
       <div className="right">
         <div className="img-container">
-          <div className="img-stack">
-            <img src={React1} className="img" alt="true" />
-          </div>
           <div className="img-stack">
             <img src={React2} className="img" alt="true" />
           </div>
