@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footerstyle.css';
-import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -27,9 +27,18 @@ const Footer = () => {
                     <h4>About my company</h4>
                     <p>This is Raj Koirala. I'm trying to pursue a new job in the development sector and ready to face any challenges related to it</p>
                     <div className="social">
-                        <FaFacebook size={30} />
-                        <FaInstagram size={30} />
-                        <FaLinkedin size={30} />
+                        <a href="https://www.facebook.com/raj.koirala.925/" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook size={30} />
+                        </a>
+                        <a href="https://www.instagram.com/__raajz__?igsh=Mnd6ZDNlZXdoNGlk" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram size={30} />
+                        </a>
+                        <a href="http://linkedin.com/in/raajz-koirala-8341a4284" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin size={30} />
+                        </a>
+                        <a href="https://github.com/raajz49" target="_blank" rel="noopener noreferrer">
+                            <FaGithub size={30} />
+                        </a>
                     </div>
                 </div>
             </div>
